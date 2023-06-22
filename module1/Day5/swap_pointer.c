@@ -1,4 +1,4 @@
-# include <stdio.h>
+#include <stdio.h>
 
 struct point
 {
@@ -42,5 +42,7 @@ int main()
     printf("After swapping\n");
     printf("point1 x:%d,y:%d\n",p1.x,p1.y);
     printf("point2 x:%d,y:%d\n",p2.x,p2.y);
+
+    return 0;
     
 }
